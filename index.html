@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <script type="text/javascript" src="vanilla-tilt.js"></script>
+      <link rel="icon" href="sorvete.png" type="image/x-icon" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="sorv.css" type="text/css">
+      
+      <title>KIdeliçai</title>
+  </head>
+  <body>
+    <main>
+      <section id="cabecalho"  class="texto2"> 
+              <nav id="menu_esquerdo">
+                      <a href="#inicio">menu</a>
+                      <a href="#cardapio">cardapio</a>
+                      <div id="log"><img src="imagens/WhatsApp_Image_2022-04-09_at_18.56.46-removebg-preview.png"></div>
+                      <a href="#promocoes">promoções</a>
+                      <a href="#contato"> Contato</a> 
+              </nav> 
+      </section>
+      <article id="mob_nav">
+        <nav class="navbar navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <a href="#" class="texto6">KIdeli<span class="texto5">çai</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <a href="#" class="texto6">KIdeli<span class="texto5">çai</span></a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#cardapio">Cardapio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#promocoes">Promoções</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contato">Contato</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Digite aqui...                 KIdelicai" aria-label="Search">
+                  <button type="button" class="btn btn-outline-dark">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </article>
+  <!--separaçao carousel-->
+  <a name="inicio" id="inicio"></a>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/kide.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/combo.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/desc.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        
+      <section id="quem_somos">
+                <div id="grand">
+              <img src="imagens/card_2.png"></div> 
+              <br>   <br>   
+
+              <section id="centralizador1">
+                <a name="cardapio" id="cardapio"></a>
+                 <!-- ______________________CARDAPIO PARTE 1___________________________________-->
+                    <article class="cardapio_claro">
+                          <header class="texto9">AÇAI COMUM</header>
+                            <article id="tabela1">300 ML  <span class="invi">...............</span>............10,00</article>
+                            
+                            <br>
+                            <article id="tabela2">500 ML  <span class="invi">...............</span>............14,00</article>
+                            <br>
+                            <article id="tabela3">700 ML  <span class="invi">...............</span>............18,00</article>
+                             <!-- ______________________BOTAO CARDAPIO 1___________________________________-->
+                            <section class="botaocompra1">
+                              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Adicionar ao carrinho
+                              </button>
+                            </section>
+                              <section class="carro1">
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">CARRINHO DE COMPRAS </h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <!--sacola de compras -->
+                                      <fieldset>
+                                        <label> QUANTOS ML :</label>
+                            <input type="radio" name="resp" value="sim">300
+                            <input type="radio" name="resp" value="nao">500
+                            <input type="radio" name="resp" value="nao">700
+                            <br><br>
+                                      <label>QUANTIDADE:</label>
+                                      <input id="inpu" type="number" min="1" max="20" >
+                                      <br><br>
+                                      <label>Deseja adicionar um complemento:</label><br>
+                                      <input type="checkbox" name="opcao1" value="fire">morango (2,00)<br>
+                                      <input type="checkbox" name="opcao2" value="chro">kiwi (2,00)<br>
+                                      <input type="checkbox" name="opcao3" value="IE">banana (2,00)<br>
+                                      <input type="checkbox" name="opcao4" value="safa">maça (2,00)<br>
+                                      </fieldset>
+                                      <!--sacola de compras -->
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                      <button type="button" class="btn btn-warning">Adicionar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </section>
+                               <!-- ______________________ FIM BOTAO CARDAPIO 1___________________________________-->
+                            <!--imagem do açai comum-->
+                            
+                                <div id="sorv1"><img src="imagens/PURO.png"></div>
+                              <!-- Button trigger modal -->
+
+                            <!-- fim cardapio claro-->
+                    </article>
+ <!-- ___________________________________________________________PARTE 2 CARDAPIO________________________________________________________________________-->
+                    <article class="cardapio_escuro">
+                          <header class="texto10">AÇAI MASTER</header>
+                            <article id="tabela4">300 ML  <span class="invi">...............</span>............14,00</article>
+                            <br>
+                            <article id="tabela5">500 ML  <span class="invi">...............</span>............17,00</article>
+                            <br>
+                            <article id="tabela6">700 ML  <span class="invi">...............</span>............20,00</article>
+                            <!-- ______________________BOTAO CARDAPIO 2___________________________________-->
+                            <section class="botaocompra2">
+                              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Adicionar ao carrinho
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Tem certeza que deseja adicionar este item?</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                  ITEM SELECIONADO
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                      <button type="button" class="btn btn-warning">Adicionar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </section>
+                               <!-- ______________________FIM BOTAO CARDAPIO 2___________________________________-->
+                            <!--imagem do açai master-->
+                              <div id="sorv2"><img src="imagens/repli.png"></div>
+                            <!--fim do cardapio escuro-->
+                    </article>
+              </section>
+<!-- ___________________________________________________________CARDAPIO POWER 1________________________________________________________________________-->
+              <article class="cardapiopow">
+                      <header class="texto11">AÇAI POWER</header>
+                            <article id="tabela7">300 ML  <span class="invi">...............</span>............18,00</article>
+                              <br>
+                            <article id="tabela8">500 ML  <span class="invi">...............</span>............20,00</article>
+                              <br>
+                            <article id="tabela9">700 ML  <span class="invi">...............</span>............24,00</article>
+                              <br>
+                               <!-- ______________________BOTAO POWER 1___________________________________-->
+                        <section class="botaocompra3">
+                              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Adicionar ao carrinho
+                              </button>
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Tem certeza que deseja adicionar este item?</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                  ITEM SELECIONADO
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                      <button type="button" class="btn btn-warning">Adicionar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </section>
+                         <!-- ______________________FIM BOTAO POWER 1___________________________________-->
+              </article>
+      </section>
+      
+      <section class="titulodes"><span class="amarelo1">DES</span>CONTOS?</section>
+      <a name="promocoes" id="promocoes"></a>
+      <section class="titulodes">TEMOS TAMBEM!!</section>
+      <section id="cardes">
+        
+                  <article class="container">
+                          <div class="card">
+                            <div class="content">
+                              <h2>50%</h2>
+                              <h3>TERÇA EM FAMILIA</h3>
+                              <p>TODA TERÇA-FEIRA VOCÊ RECEBE 50% DE DESCONTO EM QUALQUER COMBO</p>
+                              <a href="#nada">Adicionar promoção</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="content">
+                              <h2><img src="imagens/delivery-man.png" width="60" height="60"></h2>
+                              <h3>DELIVERY</h3>
+                              <p><br>ENTREGA GRATUITA TODA QUINTA E SEXTA-FEIRA!!!!</p>
+                              <a href="#nada">Adicionar promoçao</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="content">
+                              <h2><img src="imagens/delivery-truck.png" width="60" height="60"></h2>
+                              <h3>PARA EMPRESAS</h3>
+                              <p><br>VERIFIQUE AQUI NOSSAS PROMOÇOES PARA A SUA EMPRESA </p>
+                              <a href="#nada">Verificar promoçoes</a>
+                            </div>
+                          </div>
+                  </article>
+                  <script>
+                    VanillaTilt.init(document.querySelectorAll(".card"),{
+                      max: 25,
+                      speed:400,
+                      glare: true,
+                    });
+                  </script>
+        </section>
+        <section id="map">
+                  <header class="titlelocal">AONDE ESTAMOS?</header>
+                    <article class="textando">Estamos no bairo da Vila Romana há mais de 25 anos,<br> em um espaço com 500m2, muito arejado, <br>com uma vista incrivel para voce e sua familia.<br> Temos mesas individuais e para a galera toda! <br>Aceitamos reservas para eventos, e encomendas.</article>
+                  <div class="mapeando"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1262723424693!2d-46.69708208538482!3d-23.52796036624394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8768338062b%3A0xc990914f925240f4!2sR.%20Tito%2C%2054%20-%20Vila%20Romana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005051-000!5e0!3m2!1spt-BR!2sbr!4v1648162419010!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </section>
+        <a name="contato" id="contato"></a>
+          <section id="formul">
+                    <div class="formula1">
+                      
+                     <header class="cont"> Entre em contato com a gente:</header>
+                  <br>
+                <form action=" " name="form">
+                  
+                          <label></label>                       
+                          <input id="pad" type="text" name="nome" maxlength="30" size="40" placeholder="* Digite seu nome:">
+                          <br>          
+                          
+                          <label></label>                      
+                          <input id="pad" type="email" name="mail" maxlength="30" size="40"placeholder="*e-mail:">
+                           <br>                 
+                          
+                           <label></label>                       
+                          <input  id="pad" type="email" name="mail" maxlength="30" size="40" placeholder="* Digite seu telefone:">
+                            <br>
+                          <label></label>	
+		                  <textarea  id="pad" cols="35" rows="3" placeholder="* Comente aqui:"></textarea> <br>
+                            <input id="pad2" type="submit" class="botao">
+                </form>
+                    </div>
+                    <div class="formula2"><img src="imagens/fo.png"></div>
+          </section>
+          <footer>KIDELIÇAÍ - Rua Tito, 54 - Vila Romana - SP CEP: 03535-000 Tel: (11) 00000-0000<br>
+          </footer>
+          
+  </body>
+</html>
